@@ -1,0 +1,39 @@
+body {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+ 
+.form-weate {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-weate .form-weate-heading,
+.form-weate .checkbox {
+  margin-bottom: 10px;
+}
+.form-weate .checkbox {
+  font-weight: normal;
+}
+.form-weate .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-weate .form-control:focus {
+  z-index: 2;
+}
+.form-weate input[type="names"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-weate input[type="amount"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
